@@ -117,6 +117,10 @@ Vds> Vov <br>
 <br>
 ### AC Analysis:<br>
 
+![Image](https://github.com/user-attachments/assets/c5758e33-5f00-47a0-a8f6-9396a4857f4d)
+![Image](https://github.com/user-attachments/assets/f9a88a16-9f87-48f9-862a-b9c76dbd3d7f)
+![Image](https://github.com/user-attachments/assets/422b7377-e74e-4594-81eb-f08fb307f261)
+
 gain = Av= -gm*Rd 
 where gm= (2Id)/Vov = 2.27ms <br>
 Av= -2.27ms * 1.9k = -4.31 V/V <br>
