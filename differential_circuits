@@ -31,6 +31,26 @@
 * Results:<br>
   Drain current (Id) is split between the two MOSFETs.<br>
   Drain-to-source voltage (Vds) is checked to ensure saturation.<br>
+![Image](https://github.com/user-attachments/assets/25cbc8db-e5a5-4e01-8f26-9de17cc6f9a2).<br>
+
+##### Theoretical values and observed values of parameters :<br>
+
+| Parameter    | Theoretical value  | Practical value |
+|--------------|--------------------|-----------------|
+|Voutcm        | 1.25V              | 1.250V          |
+|Vp            | 0.4V               | 0.4V           |
+|Id1,Id2       | 0.5mA              | 4.9mA          |
+|Id(V1)        | 1mA                | 0.99mA          |
+|Rd            | 1.9kohm            | 1.9kohm        |
+|Rss           | 400.0ohm           | 400ohm          |
+|Vgs           | 0.8V               | 0.801V          |
+
+<br>
+
+Now lets caluculate vincm(min), Vincm(max), Vout(min), Vout(max) .<br>
+
+
+
 
 
 
