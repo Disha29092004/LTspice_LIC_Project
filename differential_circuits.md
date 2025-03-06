@@ -148,6 +148,9 @@ Vds> Vov <br>
 <br>
 ### AC Analysis: <br>
 
+![Image](https://github.com/user-attachments/assets/b55890bc-58ac-43a8-985b-e0e0288bd3b4)
+![Image](https://github.com/user-attachments/assets/e2be45e3-83eb-4d7a-8b5d-f11b206ce569)
+![Image](https://github.com/user-attachments/assets/f4df02fe-d1a7-4fb3-a7a3-c0e56387db7a)
 
 <br>
 
