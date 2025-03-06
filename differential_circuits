@@ -1,1 +1,19 @@
+# DIFFERENTIAL PAIR AMPLIFIER : <br>
+<br>
+1. A differential pair amplifier, also called a long-tailed pair.<br>
+2. Differential pair amplifier is a fundamental circuit in analog electronics, especially in operational amplifiers and differential signal processing.<br>
+3. It consists of two transistors that share a common current source and amplify the difference between two input signals.<br>
+<br>
+
+## BASIC STRUCTURE : <br>
+1. Two NMOS transistors with their sources tied together.<br>
+2. A current source at the sources.<br>
+3. Outputs taken from the drains.<br>
+<br>
+
+### WORKING PRINCIPLE : <br>
+1. It receives two input signals (Vin1 and Vin2).<br>
+2. The circuit amplifies the difference between these signals, rejecting common-mode noise.<br>
+3. A constant current source in the emitter ensures proper operation.<br>
+
 
