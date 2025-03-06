@@ -146,8 +146,7 @@ Vds> Vov <br>
 |Vincm(max)     | 1.76V        | 2.50V           |
 
 <br>
-### AC Analysis: <br>![Screenshot 2025-03-06 225903](https://github.com/user-attachments/assets/fd61df70-39eb-4301-9614-5c527a2a1004)
-
+### AC Analysis: <br>
 
 <br>
 
