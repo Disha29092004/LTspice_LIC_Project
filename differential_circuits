@@ -6,6 +6,7 @@
 <br>
 
 ## BASIC STRUCTURE : <br>
+![Image](https://github.com/user-attachments/assets/1e25c387-15ff-417e-bf8e-a23af72440ad)
 1. Two NMOS transistors with their sources tied together.<br>
 2. A current source at the sources.<br>
 3. Outputs taken from the drains.<br>
