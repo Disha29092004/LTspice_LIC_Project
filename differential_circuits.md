@@ -3,7 +3,19 @@
 1. A differential pair amplifier, also called a long-tailed pair.<br>
 2. Differential pair amplifier is a fundamental circuit in analog electronics, especially in operational amplifiers and differential signal processing.<br>
 3. It consists of two transistors that share a common current source and amplify the difference between two input signals.<br>
+
+## Characteristics:<br>
+1. Differential Gain: Amplifies the difference between inputs (Vin1 and Vin2).<br>
+2. Common-Mode Rejection: Rejects noise and unwanted signals.<br>
+3. High Input Impedance: Especially in MOSFET-based designs.<br>
+4. Used in Op-Amps & Communication Circuits.<br>
 <br>
+
+## Applications:<br>
+1. Operational amplifiers (op-amp input stage).<br>
+2. Differential signal processing.<br>
+3. Communication circuits (e.g., RF and data transmission).<br>
+4. Instrumentation amplifiers.
 
 ## BASIC STRUCTURE : <br>
 ![Image](https://github.com/user-attachments/assets/1e25c387-15ff-417e-bf8e-a23af72440ad)
@@ -16,6 +28,12 @@
 1. It receives two input signals (Vin1 and Vin2).<br>
 2. The circuit amplifies the difference between these signals, rejecting common-mode noise.<br>
 3. A constant current source in the emitter ensures proper operation.<br>
+4. The transistor to work in saturation region,<br>
+    Vds >= Vov <br>
+    Vds >= Vgs-Vtn <br>
+5. The total current flowing through the circuit is Iss , current flowing through the transistors are Id1 and Id2 <br>
+6. Id1=Id2 = Iss/2 <br>
+   Vincm = Vgs + Vp<br>
 <br>
 
 #### DESIGN QUESTION :
@@ -66,7 +84,13 @@ Now lets caluculate vincm(min), Vincm(max), Vout(min), Vout(max) .<br>
 ##### I will apply.<br>
 ### * Amplitude = 50mV :
 #### * When Vincm = 1.2V:
-![Image](https://github.com/user-attachments/assets/0b74b51b-1bed-46ef-8545-a70ab11a647d)
+![Image](https://github.com/user-attachments/assets/0b74b51b-1bed-46ef-8545-a70ab11a647d)<br>
+Av=3.8V/V(from grafh).<br>
+Vgs = 0.8V , Vth = 0.3V . <br>
+Vinp-p = 0.3937<br>
+Voutp-p = 0.1004<br>
+Av = Vout/vin<br>
+   = 4V/v
 <br>
 
 ### AC Analysis : <br>
@@ -76,9 +100,9 @@ Results:
 Differential gain (Av) is calculated.
 High CMRR (> 40 dB) indicates good common-mode rejection.
 For this we priorly need to calculate gain with theoretical values. <br>
-gain = Av= -gm*Rd 
+gain = Av= gm*Rd 
 where gm= (2Id)/Vov = 2.27ms <br>
-Av= -2.27ms * 1.9k = -4.31 V/V <br>
+Av= 2.27ms * 1.9k = 4.31 V/V <br>
 as we know Av= 20Log(vout/Vin)<br>
 in dB scale theoretical gain is 11.59dB <br>
 ![Image](https://github.com/user-attachments/assets/271dcf90-3b47-4dbe-904e-c07e6fab208c)
@@ -88,8 +112,8 @@ in dB scale theoretical gain is 11.59dB <br>
 
 |Parameter      |Theory value  | Practical value |
 |---------------|--------------|-----------------|
-|Av(in dB)      | 13.92dB      | 13.01dB         |
-|Av(in V/V)     | 4.97         | 4.47            |
+|Av(in dB)      | 11.59dB      | 11.76dB         |
+|Av(in V/V)     | 4.31         | 4               |
 
 <br>
 
@@ -111,8 +135,8 @@ Vds> Vov <br>
 #### FOR 50mV AMPLITUDE :
 |Parameter      |Theory value  | Practical value |
 |---------------|--------------|-----------------|
-|Vincm(min)     | 0.86V        | 0V              |
-|Vincm(max)     | 1.76V        | 1.9V            |
+|Vincm(min)     | 0.76V        |0.8 V              |
+|Vincm(max)     | 1.61V        | 1.65V            |
 
 <br>
 ### AC Analysis:<br>
@@ -129,8 +153,8 @@ in dB scale theoretical gain is 11.59dB <br>
 
 |Parameter      |Theory value  | Practical value |
 |---------------|--------------|-----------------|
-|Av(in dB)      | 13.92dB      | 13.5dB          |
-|Av(in V/V)     | 4.97         | 4.73            |
+|Av(in dB)      | 11.59dB      | 11.78B          |
+|Av(in V/V)     | 4.31         | 4               |
 
 <br>
 
@@ -146,8 +170,8 @@ Vds> Vov <br>
 ![Image](https://github.com/user-attachments/assets/7cd07614-0013-4419-beb8-e26910ced1d0)
 |Parameter      |Theory value  | Practical value |
 |---------------|--------------|-----------------|
-|Vincm(min)     | 0.86V        | 0.66V           |
-|Vincm(max)     | 1.76V        | 2.50V           |
+|Vincm(min)     | 0.76V        | 0.8V           |
+|Vincm(max)     | 1.61V        | 1.65V           |
 
 <br>
 ### AC Analysis: <br>
@@ -158,12 +182,32 @@ Vds> Vov <br>
 
 <br>
 
-
 |Parameter      |Theory value  | Practical value |
 |---------------|--------------|-----------------|
-|Av(in dB)      | 13.92dB      | 20 dB           |
-|Av(in V/V)     | 4.97         | 10              |
+|Av(in dB)      | 11.59dB      | 11.78dB         |
+|Av(in V/V)     | 4.31         | 4               |
+<br>
 
+## RESULT :<br>
+1. The differential amplifier successfully amplifies the differential input while rejecting common-mode noise.
+2. The AC analysis confirms good gain and frequency response.
+3. The transient response validates proper time-domain operation.
+
+-----------------------------------------------------------------------------------------------
+
+## INFERENCE :<br>
+1. Increasing Rss reduces the amplifier’s ability to handle small signals, leading to a lower gain.
+2. The common-mode input voltage must be within a suitable range to keep both transistors in saturation mode.
+3. Since Rss allows current variations and does not provide a stable current, replacing it with a constant current source ensures consistent output and improved gain.
+4. Higher input signal amplitudes lead to earlier distortion, as the transistor reaches saturation or cutoff sooner (e.g., tested for 50mV and 100mV amplitudes).
+5. The maximum input swing is the highest input voltage that can be applied before distortion occurs.
+6.When the width-to-length (W/L) ratio of three transistors in the third circuit was kept constant, the threshold voltage (Vth) remained zero. However, modifying the W/L ratio caused Vth to change.
+7. Initially, replacing all components with MOSFETs did not yield the expected output. However, after adjusting the W/L ratio,Vout was stabilized.
+8. Since Vout does not explicitly depend on specific parameters, its variation was minimal, resulting in only a slight difference in gain.
+9. Setting the AC phase to 180° for one of the inputs resulted in a significant increase in gain.
+10. In differential amplifiers, the tail resistor is often substituted with a current source to enhance circuit stability and boost gain.
+11. A MOSFET current mirror or an active current source is commonly used instead of a simple resistor or an ideal current source in differential amplifiers to improve output impedance and further increase gain.
+12. A PMOS transistor with its drain connected to its gate forces the MOSFET into saturation, allowing it to function as a stable current source.
 
 
 
