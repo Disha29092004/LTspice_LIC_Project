@@ -137,10 +137,11 @@ in dB scale theoretical gain is 11.59dB <br>
 The transistor to operate in saturation region ,<br>
 Vgs>Vth, <br>
 Vds> Vov <br>
-
+![Image](https://github.com/user-attachments/assets/e9df5883-8c11-4603-881b-15ae13c1b1e8)
 
 ### Transient Analysis <br>
 #### FOR 50mV AMPLITUDE :
+![Image](https://github.com/user-attachments/assets/7cd07614-0013-4419-beb8-e26910ced1d0)
 |Parameter      |Theory value  | Practical value |
 |---------------|--------------|-----------------|
 |Vincm(min)     | 0.86V        | 0.66V           |
@@ -148,6 +149,7 @@ Vds> Vov <br>
 
 <br>
 ### AC Analysis:<br>
+
 |Parameter      |Theory value  | Practical value |
 |---------------|--------------|-----------------|
 |Av(in dB)      | 13.92dB      | 20 dB           |
