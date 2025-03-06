@@ -95,10 +95,11 @@ in dB scale theoretical gain is 11.59dB <br>
 
 ## CIRCUIT 2 : Current Source-Loaded Differential Pair:<br>
 ### DC Analysis :<br>
+![Image](https://github.com/user-attachments/assets/0d4ea0cd-38be-4e7a-9713-af96ea5cc199)
 
 
 
-from this , the transistor to operate in saturation region ,<br>
+The transistor to operate in saturation region ,<br>
 Vgs>Vth, <br>
 Vds> Vov <br>
 
