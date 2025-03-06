@@ -150,6 +150,7 @@ Vds> Vov <br>
 <br>
 ### AC Analysis:<br>
 
+
 |Parameter      |Theory value  | Practical value |
 |---------------|--------------|-----------------|
 |Av(in dB)      | 13.92dB      | 20 dB           |
