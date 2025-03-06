@@ -58,16 +58,15 @@ Now lets caluculate vincm(min), Vincm(max), Vout(min), Vout(max) .<br>
   The output waveform shows amplification of the differential signal.
   Common-mode signals are effectively suppressed.
   The circuit response is linear for small input variations.
-
-
 * Replace DC input with an AC signal.<br>
 * Use SINE(dc_offset, Amplitude, Frequency),
 * Go to "Simulate" > "Edit Simulation Cmd" > "Transient".<br>
 * Set Stop Time: 5ms.<br>
 * Run the simulation.<br>
 ##### I will apply.<br>
-### For Amplitude = 50mV :
+### * Amplitude = 50mV :
 #### * When Vincm = 1.2V:
+![Image](https://github.com/user-attachments/assets/0b74b51b-1bed-46ef-8545-a70ab11a647d)
 <br>
 
 ### AC Analysis : <br>
@@ -76,14 +75,13 @@ Objective: Measure voltage gain, bandwidth, and CMRR.
 Results:
 Differential gain (Av) is calculated.
 High CMRR (> 40 dB) indicates good common-mode rejection.
-
- 
 For this we priorly need to calculate gain with theoretical values. <br>
 gain = Av= -gm*Rd 
 where gm= (2Id)/Vov = 2.27ms <br>
 Av= -2.27ms * 1.9k = -4.31 V/V <br>
 as we know Av= 20Log(vout/Vin)<br>
 in dB scale theoretical gain is 11.59dB <br>
+
 
 |Parameter      |Theory value  | Practical value |
 |---------------|--------------|-----------------|
