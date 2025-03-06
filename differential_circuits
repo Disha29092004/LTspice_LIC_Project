@@ -16,6 +16,26 @@
 1. It receives two input signals (Vin1 and Vin2).<br>
 2. The circuit amplifies the difference between these signals, rejecting common-mode noise.<br>
 3. A constant current source in the emitter ensures proper operation.<br>
+<br>
+
+#### DESIGN QUESTION :
+![Image](https://github.com/user-attachments/assets/90a87d42-759f-4c83-b5a9-989b8884632b).<br>
+
+## CIRCUIT 1 : Resistor-Loaded Differential Pair:<br>
+
+### DC Analysis :<br>
+1. The DC operating points are determined.
+* Objective: Ensure both transistors are in saturation.
+* Vary W/L to get the required Voutcm. <br>
+* Vary Rd to set exact Voutcm.<br>
+* Results:<br>
+  Drain current (Id) is split between the two MOSFETs.<br>
+  Drain-to-source voltage (Vds) is checked to ensure saturation.<br>
+
+
+
+
+
 
 
 
