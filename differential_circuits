@@ -81,6 +81,9 @@ where gm= (2Id)/Vov = 2.27ms <br>
 Av= -2.27ms * 1.9k = -4.31 V/V <br>
 as we know Av= 20Log(vout/Vin)<br>
 in dB scale theoretical gain is 11.59dB <br>
+![Image](https://github.com/user-attachments/assets/271dcf90-3b47-4dbe-904e-c07e6fab208c)
+![Image](https://github.com/user-attachments/assets/18d98aa1-a8fe-4577-b13c-1c12737a5720)
+![Image](https://github.com/user-attachments/assets/fcd2e606-cfc3-4326-9bc8-bdb895e30707)
 
 
 |Parameter      |Theory value  | Practical value |
