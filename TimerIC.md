@@ -97,7 +97,11 @@ Where:
 - Input Frequency: ~1 kHz
 - Monostable Pulse Width: 0.5 ms
 - Output Signal: Rectangular pulse
-![Waveform 1]
+![Waveform 1]![Image](https://github.com/user-attachments/assets/ff36e141-de01-447d-91d6-55f27d91dd90)
+![Image](https://github.com/user-attachments/assets/b6384622-2baa-454d-b9af-bf45aeb81427)
+![Image](https://github.com/user-attachments/assets/911097b3-0c0d-406a-8c3f-16cab810ab64)
+![Image](https://github.com/user-attachments/assets/65e87bcd-e427-4201-ba35-06333d0c1661)
+![Image](https://github.com/user-attachments/assets/d8efc288-33d6-42a8-883f-5d70b5097e3e)
 
 ---
 
@@ -112,7 +116,6 @@ Where:
 - Output Inverted using NOT gate
 - Achieved OFF = 0.4 ms, ON = 0.1 ms
 
-![Waveform 3b](https://github.com/user-attachments/assets/5974cd20-b140-48e9-b307-9e661e8e4906)
 
 ---
 
@@ -173,12 +176,12 @@ T = 0.693 \times (Ra + 2Rb) \times C = 0.693 \times (3.3k + 2 \times 6.8k) \time
 - Waveform measurement and analysis using virtual tools.
 - Importance of circuit simulation before hardware testing.
 
----
 
 
 
 
----
+
+
 
 >  This project was created for academic purposes and demonstrates fundamental timer circuit design using 555 IC.
 
