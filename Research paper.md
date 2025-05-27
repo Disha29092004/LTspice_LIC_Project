@@ -21,6 +21,7 @@ Developed using **TSMC 180 nm CMOS technology** and simulated in **LTspice**, th
 
 ---
 ##  Circuit diagram
+![Image](https://github.com/user-attachments/assets/a7ed26f4-8cc2-44f4-b0e3-65ebd5f7e895)
 
 ##  Background
 
