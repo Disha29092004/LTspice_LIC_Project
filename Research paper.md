@@ -21,9 +21,9 @@ Developed using **TSMC 180 nm CMOS technology** and simulated in **LTspice**, th
 
 ---
 ##  Circuit diagram
-![Image](https://github.com/user-attachments/assets/a7ed26f4-8cc2-44f4-b0e3-65ebd5f7e895)
+![Image](https://github.com/user-attachments/assets/a7ed26f4-8cc2-44f4-b0e3-65ebd5f7e895)\
 Miller Compensated Circuit
-![Image](https://github.com/user-attachments/assets/32cf4dcb-3f61-47b3-b2da-846e24e75e2f)
+![Image](https://github.com/user-attachments/assets/32cf4dcb-3f61-47b3-b2da-846e24e75e2f)\
 Without Miller Compensated Circuit
 
 ##  Background
