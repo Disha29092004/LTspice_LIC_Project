@@ -84,10 +84,10 @@ Where:
 ##  Circuit Diagrams
 
 ###  Monostable Multivibrator:
-![Monostable Circuit]![Image](https://github.com/user-attachments/assets/e19694d0-2e06-4fd7-a29d-96534ac82ac3)
+![Image](https://github.com/user-attachments/assets/e19694d0-2e06-4fd7-a29d-96534ac82ac3)
 
 ###  Full Setup: Astable + Differentiator + Clipper + Monostable
-![Full Setup Circuit]
+![Image](https://github.com/user-attachments/assets/2ebc6bbe-ddc1-4ba9-ae83-1b65d9013ee1)
 
 ---
 
@@ -97,21 +97,21 @@ Where:
 - Input Frequency: ~1 kHz
 - Monostable Pulse Width: 0.5 ms
 - Output Signal: Rectangular pulse
-![Waveform 1](https://github.com/user-attachments/assets/bdcbd7d8-b042-44d8-a02f-16989a367a90)
+![Waveform 1]
 
 ---
 
 ###  Case 2: High-Speed Operation (Low R, C)
 - Ra = 1kΩ, Rb = 1kΩ, C = 0.01µF
 - Observed pulse widths: ~0.05 ms
-![Waveform 2](https://github.com/user-attachments/assets/bb0dabe9-f63f-4be1-9e6b-fbbc78f23174)
+
 
 ---
 
 ###  Case 3: Inverted Output for OFF > ON
 - Output Inverted using NOT gate
 - Achieved OFF = 0.4 ms, ON = 0.1 ms
-![Waveform 3](https://github.com/user-attachments/assets/62330045-4a0a-422d-b977-9699a629bb00)
+
 ![Waveform 3b](https://github.com/user-attachments/assets/5974cd20-b140-48e9-b307-9e661e8e4906)
 
 ---
