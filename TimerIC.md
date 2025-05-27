@@ -183,8 +183,6 @@ T = 0.693 \times (Ra + 2Rb) \times C = 0.693 \times (3.3k + 2 \times 6.8k) \time
 
 
 
->  This project was created for academic purposes and demonstrates fundamental timer circuit design using 555 IC.
-
 
 
 
