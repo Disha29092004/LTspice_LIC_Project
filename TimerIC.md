@@ -84,10 +84,10 @@ Where:
 ##  Circuit Diagrams
 
 ###  Monostable Multivibrator:
-![Monostable Circuit]
+![Monostable Circuit]![Image](https://github.com/user-attachments/assets/e19694d0-2e06-4fd7-a29d-96534ac82ac3)
 
 ###  Full Setup: Astable + Differentiator + Clipper + Monostable
-![Full Setup Circuit](https://github.com/user-attachments/assets/b07bcbbe-72dd-4548-a828-e1ff5dc9cebd)
+![Full Setup Circuit]
 
 ---
 
